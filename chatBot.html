@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chatBot.css">
+    <title>chatbot</title>
+</head>
+<body>
+  <main>
+    <section class="chat">
+      <header>Chatbot</header>
+      <ul id="messages">
+        <li class="chat-bot">Hi!, I am chatbot</li>
+      </ul>
+      <form id="form" action="">
+        <input id="input" type="text" /><button>Send</button>
+      </form>
+    </section>
+  </main>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chatBot.js"></script>
+</body>
+</html>
